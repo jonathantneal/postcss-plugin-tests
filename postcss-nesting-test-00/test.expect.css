@@ -1,0 +1,31 @@
+.__base {
+  appearance: none;
+  border: none;
+  border-radius: 3px
+}
+
+.__base:hover {
+  text-decoration: none
+}
+
+.__base:focus {
+  outline: none
+}
+
+.__base::-moz-focus-inner {
+  border: 0
+}
+
+.--primary {
+  composes: __base;
+  background: blue;
+  color: white;
+}
+
+.--primary:hover {
+  background: red
+}
+
+.--primary:active {
+  background: pink
+}

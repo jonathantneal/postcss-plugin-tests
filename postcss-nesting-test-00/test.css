@@ -1,0 +1,24 @@
+@import "./test-import.css";
+
+.__base {
+  appearance: none;
+  border: none;
+  border-radius: 3px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+.--primary {
+  composes: __base;
+  @apply --primary;
+}
