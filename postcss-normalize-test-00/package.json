@@ -1,0 +1,16 @@
+{
+  "name": "postcss-nesting-test",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "fse": "^3.0.0",
+    "postcss": "^6.0.1",
+    "postcss-normalize": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "private": true
+}
