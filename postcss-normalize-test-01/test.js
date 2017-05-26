@@ -1,4 +1,4 @@
-const autoprefixer     = require('autoprefixer');
+const cssano           = require('cssnano');
 const fs               = require('fse');
 const postcss          = require('postcss');
 const postcssNormalize = require('postcss-normalize');
@@ -9,12 +9,12 @@ const tick    = isWin32 ? '√' : '✔';
 const cross   = isWin32 ? '×' : '✖';
 
 // test name
-const testname = 'PostCSS Normalize + Autoprefixer';
+const testname = 'PostCSS Normalize + cssnano';
 
 fs.readFile('test.css', 'utf8').then(
 	(sourceCSS) => postcss([
 		postcssNormalize(),
-		autoprefixer()
+		cssano()
 	]).process(sourceCSS)
 ).then(
 	(result) => Promise.all([

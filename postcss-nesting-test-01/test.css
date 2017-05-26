@@ -1,0 +1,14 @@
+test {
+  &another-test {
+    order: 1;
+  }
+  & & {
+    order: 2;
+  }
+  & another-test & {
+    order: 3;
+  }
+  another-test & {
+    order: 4;
+  }
+}
