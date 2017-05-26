@@ -1,6 +1,7 @@
 node_modules
 .*
 !.appveyor.yml
+!.editorconfig
 !.gitignore
 !.tape.js
 !.travis.yml
