@@ -1,0 +1,18 @@
+{
+  "name": "postcss-nesting-test",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "cssnano": "^3.10.0",
+    "fse": "^3.0.0",
+    "postcss": "^6.0.1",
+    "postcss-apply": "^0.8.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nesting": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "private": true
+}

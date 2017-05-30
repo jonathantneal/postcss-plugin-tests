@@ -13,7 +13,7 @@ const testname = 'PostCSS Import + PostCSS Normalize';
 
 fs.readFile('test.css', 'utf8').then(
 	(sourceCSS) => postcss([
-		postcssNormalize()
+		postcssImport()
 	]).process(sourceCSS)
 ).then(
 	(result) => Promise.all([

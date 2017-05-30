@@ -1,0 +1,14 @@
+:root {
+  --primary: {
+    background: blue;
+    color: white;
+
+    &:hover {
+      background: red;
+    }
+
+    &:active {
+      background: pink;
+    }
+  };
+}
