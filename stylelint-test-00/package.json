@@ -1,0 +1,16 @@
+{
+  "name": "stylelint-test",
+  "scripts": {
+    "clean": "git clean -X -d -f",
+    "test": "stylelint test.css",
+    "test:scss": "stylelint test.css --syntax scss"
+  },
+  "devDependencies": {
+    "stylelint": "^8.0.0",
+    "stylelint-config-dev": "^2.0.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-dev"
+  },
+  "private": true
+}

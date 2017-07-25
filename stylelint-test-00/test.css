@@ -1,0 +1,9 @@
+:root {
+	--test-property-set: {
+		& any-selector {
+			& any-selector {
+				color: #00ff00;
+			}
+		}
+	};
+}
