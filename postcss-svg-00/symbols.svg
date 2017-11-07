@@ -1,0 +1,8 @@
+<svg>
+  <symbol id="minus" viewBox="0 0 48 48">
+    <path style="stroke: var(--color, #144a81); stroke-width: var(--strokewidth, 2px);" d="M0 24h48"></path>
+  </symbol>
+  <symbol id="plus" viewBox="0 0 48 48">
+    <g style="stroke: var(--color, #144a81); stroke-width: var(--strokewidth, 2px);"><path d="M0 24h48M24 0v48"></path></g>
+  </symbol>
+</svg>
