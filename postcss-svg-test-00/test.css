@@ -1,0 +1,7 @@
+test-with-fill {
+  content: url("./symbol-defs.svg#athlon-icon-facebook" param(--color blue));
+}
+
+test-without-fill {
+  content: url("./symbol-defs.svg#athlon-icon-facebook");
+}
