@@ -1,11 +1,11 @@
 {
-  "name": "postcss-svg",
+  "name": "postcss-svg-test",
   "scripts": {
     "test": "node test"
   },
   "dependencies": {
     "cssnano": "^3.10.0",
-    "fse": "^3.1.0",
+    "fse": "^4.0.0",
     "postcss": "^6.0.14",
     "postcss-svg": "^2.3.0"
   },

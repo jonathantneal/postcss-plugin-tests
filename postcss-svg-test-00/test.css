@@ -1,7 +1,11 @@
-test-with-fill {
-  content: url("./symbol-defs.svg#athlon-icon-facebook" param(--color blue));
-}
-
-test-without-fill {
-  content: url("./symbol-defs.svg#athlon-icon-facebook");
+li::before {
+  position: absolute;
+  top: 3px;
+  left: -33px;
+  width: 22px;
+  height: 22px;
+  content: '';
+  background: url("symbols.svg#plus" param(--color red) param(--strokewidth 3px)) no-repeat;
+  background-size: contain;
+  background-position: center;
 }
