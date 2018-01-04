@@ -1,0 +1,15 @@
+{
+  "name": "postcss-advanced-variables-test",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "fse": "^4.0.0",
+    "postcss": "^6.0.15",
+    "postcss-advanced-variables": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "private": true
+}
