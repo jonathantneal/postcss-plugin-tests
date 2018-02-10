@@ -1,0 +1,8 @@
+:root {
+    --clrPrimary: red;
+}
+
+.title {
+  color: var(--clrPrimary)/*rtl:inherit*/;
+  font-size:16px/*rtl:14px*/;
+}
