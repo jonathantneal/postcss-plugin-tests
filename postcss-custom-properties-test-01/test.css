@@ -1,0 +1,7 @@
+:root {
+  --myColor: deepPink;
+}
+
+.altHeader {
+  color: var(--myColor, green);
+}

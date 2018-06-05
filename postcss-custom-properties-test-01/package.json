@@ -1,0 +1,16 @@
+{
+  "name": "postcss-custom-properties-test",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "cssnano": "^3.10.0",
+    "fse": "^4.0.1",
+    "postcss": "^6.0.22",
+    "postcss-custom-properties": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "private": true
+}
